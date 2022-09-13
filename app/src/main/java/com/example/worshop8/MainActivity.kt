@@ -9,7 +9,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val console = "Nintendo"
-        val console1 = "PS5"
         val console2 = "Xbox"
 
         val holaMUndo = ""
