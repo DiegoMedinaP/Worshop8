@@ -16,5 +16,9 @@ class MainActivity : AppCompatActivity() {
         val holaMUndo1 = ""
         val holaMUndo2 = ""
         val holaMUndo3 = ""
+
+        for(i in 0 until 100){
+            println(holaMUndo)
+        }
     }
 }
