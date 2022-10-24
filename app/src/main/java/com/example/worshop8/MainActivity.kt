@@ -19,9 +19,6 @@ class MainActivity : AppCompatActivity() {
         for(i in 0 until 100){
             println(i.toString())
         }
-        for(i in 0 until 100){
-            println(i.toString())
-        }
 
         print("esto es un print nuevo del feature 2")
         print("esto es un print nuevo del feature 2")
