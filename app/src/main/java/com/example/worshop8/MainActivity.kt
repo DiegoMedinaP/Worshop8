@@ -2,23 +2,30 @@ package com.example.worshop8
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val console = "Nintendo"
-        val console1 = "PS5"
-        val console2 = "Xbox"
-
-        val holaMUndo = ""
-        val holaMUndo1 = ""
-        val holaMUndo2 = ""
-        val holaMUndo3 = ""
+        println("Hola mundo")
+        println("Hola mundo")
 
         for(i in 0 until 100){
-            println(holaMUndo)
+            println(i.toString())
         }
+
+        for(i in 0 until 100){
+            println(i.toString())
+        }
+        for(i in 0 until 100){
+            println(i.toString())
+        }
+
+        print("esto es un print nuevo del feature 2")
+        print("esto es un print nuevo del feature 2")
+        print("esto es un print nuevo del feature 2")
+
     }
 }
